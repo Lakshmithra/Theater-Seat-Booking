@@ -1,57 +1,54 @@
 # Cinema Seat Booking System
 
-A Python console application to manage movie theater seat bookings with color-coded seating, booking, cancellation, and persistent storage.
+A Python console application for managing movie theater seat bookings with color-coded seating, persistent storage, and receipt generation.
 
 ---
 
 ## Table of Contents
 
-- [Overview](#overview)  
-- [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [File Structure](#file-structure)  
-- [Author](#author)  
+1. [Project Overview](#project-overview)  
+2. [Features](#features)  
+3. [Technology Stack](#technology-stack)  
+4. [Installation & Setup](#installation--setup)  
+5. [Usage Instructions](#usage-instructions)  
+6. [File Structure](#file-structure)  
+7. [How It Works](#how-it-works)  
+8. [Seat Types & Pricing](#seat-types--pricing)  
+9. [Author & Date](#author--date)  
 
 ---
 
-## Overview
+## Project Overview
 
-The Cinema Seat Booking System allows users to:
+The Cinema Seat Booking System is a Python-based console application designed to simulate a real-world theater booking experience. Users can select movies and showtimes, book or cancel seats, and see a color-coded seating chart. The system ensures seat availability is tracked persistently, so bookings remain saved between sessions.
 
-- Select from multiple movies and showtimes.  
-- View a 10x10 color-coded seating layout by seat type: Platinum, Gold, Silver.  
-- Book seats and generate a receipt with the total price.  
-- Cancel booked seats with a partial refund (60% policy).  
-- Save and load seat layouts for each movie and showtime, so bookings persist across sessions.  
+This project is ideal for beginners to understand **Python file handling, console input/output, and color-coded terminal output**.
 
 ---
 
 ## Features
 
-- **Color-coded seat display**:  
-  - Platinum (A-C) – Magenta  
-  - Gold (D-F) – Yellow  
-  - Silver (G-J) – Cyan  
-
-- **Persistent seat storage**: Bookings are saved to a file for each movie and showtime.  
-- **Booking and cancellation** with receipt generation.  
-- **Error handling** for invalid seat entries and duplicate bookings.  
+- **Movie & Showtime Selection:** Choose from multiple movies and showtimes.  
+- **Color-Coded Seat Layout:** Seats are displayed in different colors according to type.  
+- **Seat Booking:** Book one or more seats with automatic receipt generation.  
+- **Seat Cancellation:** Cancel booked seats and receive a 60% refund.  
+- **Persistent Storage:** Seat layouts are saved in files for each movie-showtime combination.  
+- **Error Handling:** Handles invalid inputs and prevents double booking.  
 
 ---
 
-## Technologies Used
+## Technology Stack
 
-- **Python 3.x**  
-- **Colorama** for colored console output  
-- **OS module** for file handling  
+- **Python 3.x** – main programming language  
+- **Colorama** – for terminal color output  
+- **OS module** – for file handling to persist seat layouts  
 
 ---
 
-## Installation
+## Installation & Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/yourusername/CinemaSeatBooking.git
+
